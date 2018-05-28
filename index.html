@@ -11,6 +11,8 @@
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
 
+	
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -20,7 +22,8 @@
 		
 		<!-- Jquery -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
+	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
 
 	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
@@ -45,7 +48,9 @@
 	    <div class="nav-wrapper">
 	      <a class="brand-logo">EmmazingDesigns</a>
 	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li><a href="sass.html">Resume</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			
+
 	      </ul>
 	    </div>
 		</nav>
@@ -54,8 +59,7 @@
 	<div class="jumbotron">
 		<span class="dev">
 				<h1>Web Developer</h1>
-				<h2>Front End // Back End </h2>
-				<h3>Full Stack</h3>
+				<h2>Front End // Full Stack </h2>
 				<div class="social-links">
 					<a href="https://www.linkedin.com/in/emmajbennett/"><i class="fa fa-linkedin"></i></a>
 					<a href="https://github.com/emmazingjane"><i class="fa fa-github" aria-hidden="true"></i></i></a>
@@ -70,24 +74,30 @@
 			<div class="modal-content">
 				<h4>Let's Connect</h4>
 				<div class="row">
-			    <form class="col s12">
+			    <form class="col s12" action="https://formspree.io/emma.j.bennett15@gmail.com" method="post" enctype="text/plain">
 			      <div class="row">
-								<div class="input-field col s6">
-									<input id="first_name" type="text" class="validate">
-									<label for="first_name">First Name</label>
-								</div>
+					<div class="input-field col s6">
+						<input id="first_name" type="text" name="fname" class="validate">
+						<label for="first_name">First Name</label>
+					</div>
 			        <div class="input-field col s6">
-			          <input id="last_name" type="text" class="validate">
+			          <input id="last_name" type="text" name="lname" class="validate">
 			          <label for="last_name">Last Name</label>
 			        </div>
-			      </div>
+				  </div>
+				  <div class="row">
+				  	<div class="input-field col s12">
+						<input id="message" type="text" name="message" class="validate">
+						<label for="message">Write me a message!</label>
+					  </div>
+				  </div>
 			      <div class="row">
 			        <div class="input-field col s12">
-			          <input id="email" type="email" class="validate">
+			          <input id="email" type="email" name="email" class="validate">
 			          <label for="email">Email</label>
 			        </div>
 						</div>
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat right">Submit</a>
+						<input type="submit" class="modal-close waves-effect waves-green btn-flat right"></a>
 						<a href="#!" class="modal-close waves-effect waves-green btn-flat right">Close</a>
 						</div>
 			    </form>
@@ -99,8 +109,6 @@
 
 
 <div class="middle">
-			
-			<h2 class="about">About Me</h2>
 
 	<section class="about1">
 
@@ -108,37 +116,145 @@
 				<img src="./img/portfolio.jpg" class="about-image">
 			</div>
 			<div class="column-2">
-				<p>Student at General Assembly SF learning full stack web development. An experienced communicator who loves to collaborate and build relations with clients as well as peers. Skills are critical thinking, determination, and artistic ability with an eye for design to generate ideas to reality.
-					<br>
-				<div class="skills-3">
-					<h6> Front End </h6>
-					<p> HTML5  |  CSS3  | JavaScript  |  Python 
-					Ruby  |  JQuery  |  Sass | React | Materialize | Bootstrap <p>
-				</div>
-				<div class="skills-3">
-					<h6> Back End </h6>
-					<p> Ruby on Rails  |  Node | AJAX  |  Axios | Express  | MongoDB  |  Mongoose  | Postgresql  |  Active Record </p>
-				</div>
-				<div class="skills-3">
-					<h6> Tools </h6>
-					<p> Git  |  GitHub  |
-					Postman  |  Heroku </p>
-				</div>
-					<p> - Emma Bennett - </p>
-				
-			
-				</div>
+				<h4>Why I am a developer...</h4>
+				<p>I am currently a student General Assembly SF learning full stack web development. I am captivated by collaborating and creating. <strong>Coding is my passion.</strong> Not only do I get to create 	amazing projects out nothing, I get to collaborate and share ideas to make things better. This love for creating and enhancing the world around me is part of my everyday life; whether it's cooking, making pottery or just talking about ideas with my peers it motivates me. 
+					
+				I strive to become a better full-stack devloper everyday by setting goals, learning new technologies, and applying them to projects. My love for front end development comes from my eye for design and my passion to be creative. Back end is alaways a rewarding challenge; creating databases, using tools and fitting all of the little pieces together.
+				</p>
+				<br>
+				<h4>Life outside of coding...</h4>
+				<p>
+					Born in Kansas, raised in Phoenix, and now living in the Bay Area my life has been anything but dull. As an extrovert I have always loved communicating with people and sharing ideas. I used to bartend, so I know <i>way</i> to much about bourban and cigars. I studied abroad in Liege, Belgium. My hobbies include: cooking, reading, pottery, and snuggling with my dawrf cat. Yosemite is my favorite weekend trip, Napa is the always the best day trip. I stumbled into the tech scene when suppporting a friend at a Women Who Code event which made me remember how much I used to love coding. 
+				</p>
+				<br>
+				<h6>I am ready to create and collaborate!</h6> <p> - Emma Bennett - </p>
 		
 	</section>
 
 </div>
 
+<section class="skills">
+	<div class="front-end">
+		<h5>Front End</h5>
+			<p> HTML5  |  CSS3  | JavaScript  |  Python 
+			Ruby  |  JQuery  |  Sass | React | Materialize | Bootstrap </p>
+	</div>
+	<div class="back-end">
+			<h5>Back End</h5>
+			<p> Ruby on Rails  |  Node | AJAX  |  Axios | Express  | MongoDB  |  Mongoose  | Postgresql  |  Active Record </p>
+	</div>
+	<div class="tools">
+			<h5>Tools</h5>
+			<p> Git  |  GitHub  |
+					Postman  |  Heroku </p>
+	</div>
+</section>
+
+<section class="skills-icons">
+	
+	
+	<i class="icon-postgres"></i>
+	<i class="icon-html"></i>
+	<i class="icon-css3"></i>
+	<i class="icon-javascript"></i>
+	<i class="icon-npm"></i>
+	<i class="icon-python"></i>
+	<i class="icon-sass"></i>
+	<i class="icon-ruby"></i>
+	<i class="icon-ruby-on-rails"></i>
+	<i class="icon-reactjs"></i>
+	<i class="icon-mysql"></i>
+	<i class="icon-jquery"></i>
+	<i class="icon-mongodb"></i>
+
+</section>
+
+<section class="projects">
+
+	<div class="project-set">
+		<div class="block">
+			<img src="./img/exhibition.png">
+			<div class="block__body">
+					<h6 class="project-color">Create Youre Dream Exhibition</h6>
+					<p class="project-color">Developed a web application to curate art shows that allows users to choose 3 artists, a location, a title of their exhibition, and write an exhibition statement.</p>
+				<p class="tech-used">
+					
+						Mongoose, MongoDB, Express, Ajax, Node.js, HTML5, CSS3
+				</p>
+				
+			</div>
+		</div>
+		<div class="project-btn">
+			<a class="waves-effect waves-light btn" href="https://project-01-rose.herokuapp.com/">Live Site</a>
+			<a class="waves-effect waves-light btn" href="https://github.com/emmazingjane/project-01">Git Hub</a>
+		</div>
+	</div>
+
+	<div class="project-set">
+		<div class="block">
+				<img src="./img/traveltips.png">
+				<div class="block__body">
+					<h6 class="project-color">Travel Tips</h6>
+					<p class="project-color">Created a travel app with pre-seeded cities where users make an account, pick the city they have visited and write travel tips they want to share.</p>
+					<p class="tech-used">
+						Ruby, Rails, Gems, PostgreSQL, HTML5, CSS3
+					</p>
+				</div>
+			</div>
+			<div class="project-btn">
+					<a class="waves-effect waves-light btn" href="https://pacific-journey-72840.herokuapp.com/">Live Site</a>
+					<a class="waves-effect waves-light btn" href="https://github.com/emmazingjane/travelTips/">Git Hub</a>
+			</div>
+	</div>
+
+	<div class="project-set">
+		<div class="block">
+				<img src="./img/hungry-mungry-recipe2.png">
+				<div class="block__body">
+						<h6 class="project-color">Hungry Mungry's Recipe Book</h6>
+						<p class="project-color">Collaborated with a partner to develop a recipe web-application that manages recipes and organizes them by highest vote, allows users to create a recipe, write comments, vote on recipes as well as delete and update posts..</p>
+						<p class="tech-used">
+							Mongoose, MongoDB, Express, React, Node.js, Axios, HTML5, CSS3
+						</p>
+					</div>
+				</div>
+				<div class="project-btn">
+						<a class="waves-effect waves-light btn" href="https://hungry-backend.herokuapp.com/">Live Site</a>
+						<a class="waves-effect waves-light btn" href="https://github.com/emmazingjane/project3_Mungry">Git Hub</a>
+				</div>
+	</div>
+
+	<div class="project-set">
+		<div class="block">
+				<img src="./img/pyp.png">
+				<div class="block__body">
+						<h6 class="project-color">Pick Your Posion</h6>
+						<p class="project-color">Created a Cocktail website that allows users to share their favorite coktails based on liquor base. Organized by highest vote complete with recipe and how to make.</p>
+						<p class="tech-used">
+							HTML5, CSS3, Mongoose, MongoDB, Express, React, Node.js, Axios
+						</p>
+					</div>
+				</div>
+				<div class="project-btn">
+						<a class="waves-effect waves-light btn" href="">Live Site</a>
+						<a class="waves-effect waves-light btn" href="">Git Hub</a>
+				</div>
+	</div>
+
+</section>
+				
+
 
 	<section class="content-wrapper">
 	<div class="border_test">
 		
-		<h2 id="testimonials">Testimonials</h2>
+		<h4 id="testimonials">Testimonials</h4>
 			<div class="testimonials">
+					<blockquote>
+							<p>
+									It has been great getting to know Emma during our web development immersive course. She is friendly and motivates everyone to network and collaborate outside of class. Emma is easy to work with and is a great problem solver. I am looking forward to continuing to perfect our development skills and create new projects together in the near future.</p>
+							<p>Stacie Fraiser</p>
+						</blockquote>
 				<blockquote>
 					<p>Working with Emma has been Emmazing ! Emma is a fast learner, an outstanding communicator and a servant leader. She picks up on new content quickly, asks challenging questions and shares her ideas in a manner the whole team can understand. She has a has strong passion in bettering technology, herself and the world. It has truly been a pleasure collaborating with Emma!</p>
 					<p>Kingsley Nyaosi</p>
